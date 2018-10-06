@@ -15,6 +15,6 @@ public class Calculator {
 
     @RequestMapping("/hello")
     public String hello(){
-        return "Welcome to Jenkins";
+        return "Welcome to Jenkins pipeline";
     }
 }

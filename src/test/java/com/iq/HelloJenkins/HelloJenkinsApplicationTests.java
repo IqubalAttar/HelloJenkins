@@ -18,7 +18,7 @@ public class HelloJenkinsApplicationTests {
 
 	@Test
 	public void testHello() {
-		Assert.assertEquals("Welcome to Jenkins", new Calculator().hello());
+		Assert.assertEquals("Welcome to Jenkins pipeline", new Calculator().hello());
 	}
 
 }
